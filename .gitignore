@@ -1,0 +1,23 @@
+# Exclusiones de PyInstaller
+dist/
+build/
+*.spec
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de datos locales y logs
+data/
+*.log
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
